@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style/checkout.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header--top">
+            <div class="header--container container">
+                <div class="header--contact">
+                    <span>(+01) - 2345 - 6789</span>
+                    <span> Our Location</span>
+                </div>
+                <p class="header--alert-news">
+                    Super Value Deals - Save more with coupons
+                </p>
+                <a href="login-register.html" class="header--top-action">
+                    Log In / Sign Up
+                </a>
+            </div>
+        </div>
+        <div class="nav container">
+            <a href="index.html" class="nav--logo">
+                <img src="css/images/loon.jpg" alt="logo" class="nav--logo-img">
+            </a>
+            <div class="nav--menu" id="nav-menu">
+                <ul class="nav--list">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav--link active-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="shop.html" class="nav--link">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="account.html" class="nav--link">My Account</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="compare.html" class="nav--link">Compare</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="login-register.html" class="nav--link">Login</a>
+                    </li>
+                </ul>
+                <div class="header--search">
+                    <input type="text" placeholder="Search for items..." class="form--input">
+                    <button class="search--btn">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="header--user-actions">
+                <a href="wishlist.html" class="header--action-btn">
+                    <i class="fa-regular fa-heart"></i>
+                    <span class="count">3</span>
+                </a>
+                <a href="cart.html" class="header--action-btn">
+                    <i class="fa-solid fa-suitcase"></i>
+                    <span class="count">3</span>
+                </a>
+            </div>
+        </div>
+    </header> 
+
+
+    <!---======= HEADER 2 ========--->
+    <section class="home section">
+        <div class="home--container container">
+            <span class="home--message">Home</span>
+            <span class="home--message">></span>
+            <p class="home--message">Shop</p>
+            <span class="home--message">></span>
+            <p class="home--message">Checkout</p>
+        </div>
+    </section>
+
+
+    <section class="login--register  container">
+        <div class="timothy--container grid">
+            <div class="login--register--items">
+                <div class="login--register--group">
+                    <h3 class="login--register--title">Billing Details</h3>
+                </div>
+                <div class="footer--search">
+                    <input type="text" placeholder="Name" class="form--inputs" required>
+                </div>
+                <div class="footer--search">
+                    <input type="text" placeholder="Adress" class="form--inputs"required>
+                </div>
+                <div class="footer--search">
+                    <input type="text" placeholder="City" class="form--inputs"required>
+                </div>
+                <div class="footer--search">
+                    <input type="text" placeholder="Country" class="form--inputs"required>
+                </div>
+                <div class="footer--search">
+                    <input type="text" placeholder="Postcode" class="form--inputs"required>
+                </div>
+                <div class="footer--search">
+                    <input type="numbers" placeholder="Phone" class="form--inputs"required>
+                </div>
+                <div class="footer--search">
+                    <input type="email" placeholder="Email" class="form--inputs"required>
+                </div>
+                <div class="login--register--group">
+                    <h3 class="addtional--container">Additional Information</h3>
+                </div>
+                <div class="additional--comment">
+                    <input type="text" placeholder="Order Notes" class="additional--input"required>
+                </div>
+                
+            </div>
+            <div class="login--register--item">
+                <div class="login--register--group">
+                    <h3 class="login--register--title">Cart Totals</h3>
+                </div>
+                <table bgcolor="lightgray">
+                    <tr bgcolor="white"> 
+                      <th colspan="2">Products</th>
+                      <th>Total</th>
+                      
+                    </tr>
+                    <tr bgcolor="white">
+                      <td>
+                        <div class="checkout--image">
+                            <img src="css/images/bagy-shirt.jpg" alt=""  class="checkout--img">
+                        </div>
+                      </td>
+                      <td>
+                        <div class="checkout--title">Yidarton Women Summer Blue</div>
+                        <span class="checkout--number">x2</span>
+                      </td>
+                      <td>
+                        <div class="checkout--amount">$180.00</div>
+                      </td>
+                      
+                    </tr>
+                    <tr bgcolor="white">
+                        <td>
+                            <div class="checkout--image">
+                                <img src="css/images/bagy-shirt.jpg" alt=""  class="checkout--img">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="checkout--title">LDB MOON Women Summer</div>
+                            <span class="checkout--number">x1</span>
+                        </td>
+                        <td>
+                            <div class="checkout--amount">$65.00</div>
+                        </td>
+                      
+                    </tr>
+                    <tr bgcolor="white">
+                        <td>
+                            <div class="checkout--image">
+                                <img src="css/images/bagy-shirt.jpg" alt="" class="checkout--img">
+                            </div>
+                        </td>
+                        
+                        <td>
+                            <div class="checkout--title">Women's Short Sleeve Loose</div>
+                            <span class="checkout--number">x2</span>
+                        </td>
+                        <td>
+                            <div class="checkout--amount">$35.00</div>
+                        </td>
+                        
+                    </tr>
+                    <tr bgcolor="white">
+                        <th class="total">SubTotal</th>
+                        <td>
+                            <div class="checkout--amounts">$280.00</div>
+                        </td>
+                       
+                    </tr>
+                    <tr bgcolor="white">
+                        <th class="total">Shipping</th>
+                        <td>
+                            <div class="checkout--text">Free Shipping</div>
+                        </td>
+                      
+                    </tr>
+                    <tr bgcolor="white">
+                        <th class="total">Total</th>
+                        <td>
+                            <p class="new--prices">$280.00</p>
+                        </td>
+                       
+                    </tr>
+                    
+                </table>
+                <div class="checkout--option-titles">
+                    <h3 class="checkout--option-title">Payment</h3>
+                    <div class="checkout--option">
+                        <div class="checkout--options">
+                            <input type="radio" class="checkout--selection">
+                            <label class="checkout--option-name"> Direct Bank Transfer</label>
+                        </div>
+                        <div class="checkout--options">
+                            <input type="radio" class="checkout--selection">
+                            <label class="checkout--option-name"> Checkout Payment</label>
+                        </div>
+                        <div class="checkout--options">
+                            <input type="radio" class="checkout--selection">
+                            <label class="checkout--option-name"> Paypal</label>
+                        </div> 
+                    </div>
+                </div>
+                
+                <div class="cart--update">
+                    <a href="checkout.html" class="buttons">
+                       Place Order
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!---===== FOOTER =============--->
+     <div class="footer--top section">
+        <div class="footer--container container">
+            <div class="footer--contact">
+                <span><i class="fa-regular fa-envelope"></i></span>
+                <span> Sign up to Newsletter</span>
+            </div>
+            <p class="footer--alert-news">
+                ..and receive $25 coupon for first shopping.
+            </p>
+            <div class="footer--search">
+                <input type="text" placeholder="Enter your mail" class="form--inputs">
+                <a href="" class="footer--button">Subscribe</a>
+            </div>
+        </div>
+    </div>
+
+    <!--- Last Page -->
+   <section class="bottom">
+    <div class="bottom--container section container grid">
+        <div class="bottom--wrapper">
+            <img src="css/images/loon.jpg" alt="" class="bottom--img">
+            <div class="bottom--item">
+                <span class="bottom--comment">Contact</span>
+                <p class="bottom--location">
+                    <span class="bottom--bolder">Address:</span> 562 Wellington Road,Street 32, San Franciso
+                </p>
+                <p class="bottom--location">
+                    <span class="bottom--bolder">Phone:</span> +01 2222 365 /(+91)01 2345 6789
+                </p>
+                <p class="bottom--location">
+                    <span class="bottom--bolder">Hours:</span> 10:00 - 18:00, Mon - Sat
+                </p>
+                <div class="socals">
+                    <h4 class="bottom--online">Follow Me</h4>
+                    <ul class="bottom--informations">
+                        <li class="social--item">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </li>
+                        <li class="social--item">
+                            <i class="fa-brands fa-twitter"></i>
+                        </li>
+                        <li class="social--item">
+                            <i class="fa-brands fa-instagram"></i>
+                        </li>
+                        <li class="social--item">
+                            <i class="fa-brands fa-pinterest-p"></i>
+                        </li>
+                        <li class="social--item">
+                            <i class="fa-brands fa-youtube"></i>
+                        </li>
+                    </ul>
+                       
+                </div>
+            </div>
+        </div>
+        <div class="bottom--wrappers">
+           <h3 class="bottom--header">Address</h3>
+            <div class="bottom--item">
+               <ul class="bottom--information">
+                <li class="bottom--info">
+                    <a href="" class="bottom-words">About Us</a>
+                </li>
+                <li class="bottom--info">
+                    <a href="" class="bottom-words">Delivery Information</a>
+                </li>
+                <li class="bottom--info">
+                    <a href="" class="bottom-words">Privacy Policy</a>
+                </li>
+                <li class="bottom--info">
+                    <a href="" class="bottom-words">Terms & Condition</a>
+                </li>
+                <li class="bottom--info">
+                    <a href="" class="bottom-words">Contact Us</a>
+                </li>
+                <li class="bottom--info">
+                    <a href="" class="bottom-words">Support Center</a>
+                </li>
+               </ul>
+                
+                       
+                
+            </div>
+        </div>
+        <div class="bottom--wrapperes">
+            <h3 class="bottom--header">My Account</h3>
+             <div class="bottom--item">
+                <ul class="bottom--information">
+                 <li class="bottom--info">
+                     <a href="" class="bottom-words">Sign In</a>
+                 </li>
+                 <li class="bottom--info">
+                     <a href="" class="bottom-words">View cart</a>
+                 </li>
+                 <li class="bottom--info">
+                     <a href="" class="bottom-words">My Wishlist</a>
+                 </li>
+                 <li class="bottom--info">
+                     <a href="" class="bottom-words">Track My Order</a>
+                 </li>
+                 <li class="bottom--info">
+                     <a href="" class="bottom-words">Help</a>
+                 </li>
+                 <li class="bottom--info">
+                     <a href="" class="bottom-words">Order</a>
+                 </li>
+                </ul>
+                 
+                        
+                 
+             </div>
+        </div>
+        <div class="bottom--wrapper">
+            <h3 class="bottom--header">Secure Payment Gateways</h3>
+             <div class="bottom--item">
+                <ul class="bottom--informations">
+                 <li class="bottom--info">
+                     <a href="" class="bottom--words">
+                        <i class="fa-brands fa-cc-visa"></i>
+                     </a>
+                 </li>
+                 <li class="bottom--info">
+                     <a href="" class="bottom--words">
+                        <i class="fa-brands fa-cc-mastercard"></i>
+                     </a>
+                 </li>
+                 <li class="bottom--info">
+                     <a href="" class="bottom--words">
+                        <i class="fa-brands fa-cc-apple-pay"></i>
+                     </a>
+                 </li>
+                 <li class="bottom--info">
+                     <a href="" class="bottom--words">
+                        <i class="fa-brands fa-cc-amex"></i>
+                     </a>
+                    </li>
+                </ul>
+                 
+                        
+                 
+             </div>
+        </div>
+    </div>
+   </section>
+
+   <!--- Useless -->
+   <section class="usless  container">
+        <hr>
+            <div class="useless--items">
+                <p><i class="fa-regular fa-copyright"></i>2022 Evara All rights reserved</p>
+                <div class="useless--page">
+                 <span>Designed by Timothycoder</span>
+                 </div>
+            </div>
+        
+   </section>
+</body>
+</html>
